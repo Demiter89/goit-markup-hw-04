@@ -175,6 +175,11 @@ h1, h2, h3, h4, h5, h6, p{
     .comany{
         padding: 120px 0;
     }
+    .ikons-description{
+        background: #f4f4fd;
+        height: 112px;
+        border-radius: 4px;
+    }
 .company-description{
     position: absolute;
         width: 1px;
@@ -205,6 +210,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .company-description-sub-items{
     margin-bottom: 8px;
+    margin-top: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
