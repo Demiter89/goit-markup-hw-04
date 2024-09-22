@@ -179,6 +179,11 @@ h1, h2, h3, h4, h5, h6, p{
         background: #f4f4fd;
         height: 112px;
         border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        border: 1px solid #8e8f99;
     }
 .company-description{
     position: absolute;
@@ -210,7 +215,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .company-description-sub-items{
     margin-bottom: 8px;
-    margin-top: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
