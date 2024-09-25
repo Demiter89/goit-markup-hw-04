@@ -364,12 +364,12 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .overley-img{
     position: absolute;
-    width: 360px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background-color: #4d5ae5;
-    transform: translateY(425px);
+    transform: translateY(100%);
 }
 .list-main:hover .overley-img{
     transform: translateY(0);
