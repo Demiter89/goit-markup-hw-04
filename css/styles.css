@@ -415,4 +415,17 @@ h1, h2, h3, h4, h5, h6, p{
     gap: 16px;
     display: flex;
 }
-
+.social-link-foter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-foter:hover,
+.social-link-foter:focus{
+    background-color: #31d0aa;
+}
