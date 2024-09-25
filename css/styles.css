@@ -429,3 +429,8 @@ h1, h2, h3, h4, h5, h6, p{
 .social-link-foter:focus{
     background-color: #31d0aa;
 }
+.footer-list-content{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px
+}
