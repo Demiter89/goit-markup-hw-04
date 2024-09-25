@@ -356,7 +356,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .list-main{
     width: calc((100% - 48px) / 3);
-    
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
     
 
@@ -373,8 +374,16 @@ h1, h2, h3, h4, h5, h6, p{
     height: 100%;
     letter-spacing: 0.02em;
     padding: 40px 32px;
-    background-color: #4d5ae5
+    background-color: #4d5ae5;
+    transform: translateY(100%);
 }
+.list-main:hover .overley-tex{
+    transform: translateY(0);
+}
+.list-main:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 /* Foter */
 .footer-description{
