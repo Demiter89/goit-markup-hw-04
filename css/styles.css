@@ -403,3 +403,12 @@ h1, h2, h3, h4, h5, h6, p{
     display: inline-block;
     margin-bottom: 16px;
 }
+.footer-sociallinks{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
+.footer-list{
+    display: flex;
+}
