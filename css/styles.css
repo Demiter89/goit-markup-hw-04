@@ -404,8 +404,15 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 16px;
 }
 .footer-sociallinks{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
 }
+.team-contakts-foter{
+    gap: 16px;
+    display: flex;
+}
+
