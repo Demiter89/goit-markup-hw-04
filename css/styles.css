@@ -123,6 +123,8 @@ h1, h2, h3, h4, h5, h6, p{
 .main-paragrph{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -439,6 +441,7 @@ h1, h2, h3, h4, h5, h6, p{
 .footer-logo-conteiner{
     margin-right: 120px;
 }
+
 
     
 
